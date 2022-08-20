@@ -1,0 +1,159 @@
+header {
+    display: flex;
+    background-color: #1F2937;
+    color:white;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    
+
+}
+header h1{
+    margin-top: -.05%;
+}
+ nav ul{
+    text-decoration: none;
+    display:flex;
+    justify-content: space-around;
+    align-content: space-around;
+ }
+ header nav ul{
+    list-style:none;
+ }
+ header nav ul li{
+    display:inline-block;
+    padding:0px 20px;
+ }
+header nav li a{
+    
+
+    text-decoration: none;
+    color:white;
+
+
+}
+
+
+.area-one{
+    background-color: #1F2937;
+    
+    display:flex;
+
+    justify-content: space-around;
+    
+    color: white;
+
+    
+    
+}
+.one-two{
+    white-space: nowrap;
+    
+
+}
+
+
+.credit{
+    
+    justify-self: flex-start;
+    align-self: flex-end;
+}
+
+.top-pic{
+    display:block;
+    max-width:33%;
+    max-height:33%;
+
+    
+
+}
+
+.area-two h1{
+text-align: center;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+    
+}
+
+.container div {
+    border-radius: 10%;
+   
+    justify-content: space-around;
+    height: 200px;
+    width: 10px;
+    margin:5%;
+    
+    
+    flex: 1 1 auto;
+    
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cutting{
+    margin-top: 70px;
+}
+
+.text-bottom{
+    display:flex;
+    justify-content: space-between;
+ 
+    
+}
+.text-jump{
+    margin-left: 4%;
+}
+.text-fun{
+    margin-right:10%;
+}
+.text-run{
+    margin-right:5%;
+}
+.area-three {
+    background-color: #E5E7EB;
+}
+.quote{
+    font-family:light italic;
+    font-size: 36px;
+    margin:10%;
+    text-align: center;
+}
+.pop-up{
+    background-color: #3882F6;
+    
+}
+.pop-row{
+    display:flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.pop-up h1{
+    margin-left: 18%;
+}
+
+footer {
+    background-color: #1F2937;
+    color:white;
+    text-align: center;
+}
+.footer{
+    background-color: #1F2937;
+}
+button{
+    background-color: #3882F6;
+    border-radius: 20%;
+    color:white;
+}
+.pop-up button{
+    border: 1px solid white;
+    
+}
+footer p {
+    padding:25px;
+}
